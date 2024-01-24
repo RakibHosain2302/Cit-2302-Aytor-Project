@@ -20,6 +20,22 @@
    line-height: 40px;
 }
 
+.BackToTop {
+   width: 40px;
+   height: 40px;
+   right: 15px;
+   padding: 5px 0 0 5px;
+}
+
+.BackToTop .backTop-Btn {
+   width: 30px;
+   height: 30px;
+}
+
+.BackToTop .backTop-Btn i {
+   font-size: 20px;
+}
+
 .bannerSlide h5 {
    font-size: 14px;
    margin-top: 10px;
@@ -39,11 +55,11 @@
    text-align: left;
    font-size: 10px;
    line-height: 14px;
-   width: 238px;
+   width: 235px;
 }
 
 #banner .bannerSlide {
-   max-height: 36vh !important;
+   max-height: 150px;
 }
 
 .button {
@@ -60,11 +76,7 @@
 }
 
 #banner .customDots {
-   text-align: center;
-   top: 94%;
-   left: 3%;
-   position: absolute;
-   margin-left: 0px;
+   top: 92%;
 }
 
 #banner .customDots li{
@@ -721,8 +733,8 @@
    width: 322px;
 }
 
-#banner .bannerSlide{
-   height: 28vh;
+#banner .bannerSlide {
+   height: 220px;
 }
 
 .button {
@@ -739,11 +751,8 @@
 }
 
 .customDots {
-   text-align: center;
    top: 85%;
-   left: 5%;
-   position: absolute;
-   margin-left: 0px;
+   margin-left: 10px;
 }
 
 .customDots li{
@@ -1284,8 +1293,59 @@
     height: 50px;
 }
 
+.BackToTop {
+   width: 60px;
+   height: 60px;
+}
+
+.BackToTop .backTop-Btn {
+   width: 50px;
+   height: 50px;
+}
+
+.BackToTop .backTop-Btn i {
+   font-size: 34px;
+}
+
 .offcanvas-start {
-   width: 400px;
+   width: 500px;
+}
+
+.offcanvas-body ul li a {
+   display: block;
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 30px;
+   padding-top: 4px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid  #E1E1E1;
+   font-family: var(--secendery-Font);
+   color: var(--secendery-Color);
+   transition: 0.60s;
+}
+
+.faq input[type='checkbox']:not(:checked) + label {
+   display: block;
+   transition: height 0.8s;
+   height: 48px;
+}
+
+.faq .faq-arrow {
+   width: 10px;
+   height: 10px;
+   top: -40px;
+}
+
+.offcanvas-body .login a {
+   font-size: 24px;
+}
+
+.offcanvas-body .SideBarWishlist a {
+   font-size: 24px;
+}
+
+.faq-heading {
+   font-size: 30px;
 }
 
 .navbar-toggler:focus {
@@ -1303,7 +1363,7 @@
 
 .bannerSlide h5 {
    font-size: 16px;
-   margin-top: 50px;
+   margin-top: 90px;
 }
 
 .bannerSlide h1 {
@@ -1324,7 +1384,7 @@
 }
 
 #banner .bannerSlide {
-   height: 280px;
+   height: 330px;
 }
 
 .button {
@@ -1341,11 +1401,7 @@
 }
 
 .customDots {
-   text-align: center;
    top: 85%;
-   left: 5%;
-   position: absolute;
-   margin-left: 0px;
 }
 
 .customDots li{
@@ -1816,7 +1872,7 @@
 
 .bannerSlide h5 {
    font-size: 18px;
-   margin-top: 75px;
+   margin-top: 100px;
 }
 
 .bannerSlide h1 {
@@ -1835,8 +1891,8 @@
    line-height: 30px;
 }
 
-#banner .bannerSlide{
-   height: 55vh;
+#banner .bannerSlide {
+   height: 415px;
 }
 
 .button {
@@ -1853,11 +1909,7 @@
 }
 
 .customDots {
-   text-align: center;
-   top: 90%;
-   left: 3%;
-   position: absolute;
-   margin-left: 0px;
+   top: 80%;
 }
 
 .customDots li{

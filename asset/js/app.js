@@ -52,7 +52,7 @@ $(function(){
         slidesToScroll: 1,
         // autoplay: true,
         // autoplaySpeed: 2000,
-        dotsClass: 'customDots'
+        dotsClass: 'customDots container'
     });
     //product Slider
     

@@ -130,7 +130,7 @@ a{
     height: 50px;
     position: fixed;
     bottom: 500px;
-    right: 20px;
+    right: 30px;
     padding: 5px 0 0 5px;
     background-color: var(--third-Color);
     background-image: conic-gradient(cadetblue 20%, #FFF 100%);
@@ -181,16 +181,13 @@ a{
     margin-left: 10px;
 }
 
-#banner{
-    position: relative;
-}
 
 .customDots {
-    text-align: center;
-    top: 75%;
-    left: 80px;
     position: absolute;
-    margin-left: 22px;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 .customDots li{
@@ -1152,7 +1149,7 @@ a{
 }
 
 #ExpartTeam ,
-.container{
+#expartTeam_Arrows{
     position: relative;
 }
 #ExpartTeam 

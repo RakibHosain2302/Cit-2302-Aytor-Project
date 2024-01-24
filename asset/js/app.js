@@ -50,8 +50,8 @@ $(function(){
         dots:true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         dotsClass: 'customDots container'
     });
     //product Slider
@@ -422,9 +422,6 @@ $(function(){
               slidesToScroll: 1,
               dots:true,
               arrows:false,
-              // fade:true,
-              // speed: 500,
-              // cssEase: 'linear'
 
             }
           }, 
@@ -493,9 +490,6 @@ $(function(){
               slidesToShow: 3,
               slidesToScroll: 1,
               arrows:false,
-              // fade:true,
-              // speed: 500,
-              // cssEase: 'linear'
 
             }
           }, 

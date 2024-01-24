@@ -337,7 +337,7 @@ nav ul .nav-item #Submenu li:hover > a{
  .faq input[type="checkbox"]:checked + label {
   display: block;
   background: rgba(255,255,255,255) !important;
-  height: 190px;
+  height: 275px;
   transition: height 0.8s;
 }
 

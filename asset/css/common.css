@@ -145,7 +145,7 @@ a{
 .BackToTop.show{
     opacity: 1;
     visibility: visible;
-    bottom: 40px;
+    bottom: 60px;
 }
 
 .BackToTop .backTop-Btn{

@@ -181,7 +181,9 @@ a{
     margin-left: 10px;
 }
 
-
+#banner{
+    position: relative;
+}
 
 .customDots {
     text-align: center;

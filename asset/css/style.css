@@ -1110,17 +1110,16 @@ nav ul .nav-item #Submenu li:hover > a{
 }
 /* movingX animation ends */
 
-#AetorShop .aetorCnt::before{
-    content:"";
-    border: 14px solid #BDBDBD;
-    width: 285px;
-    height: 310px;
+#AetorShop .aetorCnt::before {
+    content: "";
+    border: 18px solid #BDBDBD;
+    width: 355px;
+    height: 355px;
     position: absolute;
-    bottom: 0px;
+    bottom: 34px;
     left: -150px;
     z-index: -1;
     animation: movingX 8s linear 0s infinite normal none;
-    
 }
 
 

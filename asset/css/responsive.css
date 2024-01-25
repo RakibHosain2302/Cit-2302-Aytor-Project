@@ -4610,14 +4610,14 @@ font-size: 10px;
 /* Shop-Details Page Responsive CSS Starts */
 
 .details-product .CartHeartEye-Cnt .quantity .decrementBtn {
-   padding: 14px 18px;
+   padding: 10px 14px;
    font-size: 16px;
    border: 2px solid #b5b3b3da;
    background-color: transparent;
 }
 
 .details-product .CartHeartEye-Cnt .quantity .qutyInput {
-   padding: 14px 0px;
+   padding: 10px 0px;
    font-size: 16px;
    margin-left: -6px;
    border: 2px solid #b5b3b3da;
@@ -4625,7 +4625,7 @@ font-size: 10px;
 }
 
 .details-product .CartHeartEye-Cnt .quantity .incrementBtn {
-   padding: 14px 18px;
+   padding: 10px 14px;
    font-size: 16px;
    margin-left: -6px;
    border: 2px solid #b5b3b3da;
@@ -4634,17 +4634,21 @@ font-size: 10px;
 
 .details-product .add-to-cart {
    margin-left: 0px !important;
+   height: 48px;
+   padding: 8px  0;
  }
  
  .details-product .Fa-heart {
-   padding: 12px 19px;
+   padding: 9px 19px;
    font-size: 20px;
    width: 8%;
+   height: 48px;
 }
  .details-product .eye-fill {
-   padding: 12px 19px;
+   padding: 9px 19px;
    font-size: 20px;
    width: 8%;
+   height: 48px;
  }
 
 
@@ -5018,18 +5022,21 @@ font-size: 14px;
    .top_headerCnt .header-faq-heading {
       font-size: 12px;
       font-weight: 600;
-      margin-left: 6px;
+      margin-left: -2px;
+      text-align: center;
   }
+
+
 
 
   .top_headerCnt  .header-faq input[type="checkbox"]:checked + label {
    height: 115px;
 }
 
-  .top_headerCnt .header-faq ul li a {
+.top_headerCnt .header-faq ul li a {
    font-size: 12px;
    text-align: left;
-   margin-left: 6px;
+   margin-left: 26px;
 }
 
 .top_headerCnt .header-faq .header-faq-arrow {
@@ -5057,7 +5064,13 @@ font-size: 14px;
    #Header .header_right .top_headerCnt h6 {
       font-size: 12px;
       font-weight: 600;
+      text-align: center;
   }
+
+  .top_headerCnt .header-faq .header-faq-arrow.Usd-Child {
+   top: -37px;
+   right: 10px;
+}
 
   #Header .header_right .top_headerCnt:nth-child(1) h6 {
    margin-right: -20px;
@@ -5068,10 +5081,10 @@ font-size: 14px;
    text-align: left;
 }
 
-#Header .header_right .top_headerCnt:nth-child(3) h6 {
+/* #Header .header_right .top_headerCnt:nth-child(3) h6 {
    margin-right: -10px;
    text-align: left;
-}
+} */
 
 #Header .header_right .top_headerCnt-2 {
    margin-left: -24px;
